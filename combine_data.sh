@@ -1,3 +1,4 @@
+#!/bin/sh
 for x in $(ls Data/*)
 do
 	file=$(basename $x | cut -d'_' -f1)
